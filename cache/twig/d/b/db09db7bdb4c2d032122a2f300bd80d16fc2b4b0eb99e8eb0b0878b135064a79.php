@@ -104,7 +104,7 @@ class __TwigTemplate_db09db7bdb4c2d032122a2f300bd80d16fc2b4b0eb99e8eb0b0878b1350
             if (!file_exists($local_file)) {
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
-            $asset->add_assets_version('1');
+            $asset->add_assets_version('13');
             $asset_file = $asset->get_url();
             }
         }
@@ -119,7 +119,7 @@ class __TwigTemplate_db09db7bdb4c2d032122a2f300bd80d16fc2b4b0eb99e8eb0b0878b1350
             if (!file_exists($local_file)) {
                 $local_file = $this->getEnvironment()->findTemplate($asset_path);
                 $asset->set_path($local_file, true);
-            $asset->add_assets_version('1');
+            $asset->add_assets_version('13');
             $asset_file = $asset->get_url();
             }
         }
